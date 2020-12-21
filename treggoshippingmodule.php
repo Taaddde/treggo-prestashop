@@ -57,7 +57,8 @@ class TreggoShippingModule extends CarrierModule
                     'nombre' => $this->context->shop->name,
                     'dominio' => $this->context->shop->domain,
                     'id' => $this->context->shop->id_shop_group
-                )
+                ),
+                'country' => $this->context->country
             );
 
             try {
